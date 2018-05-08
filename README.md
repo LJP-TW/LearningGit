@@ -7,11 +7,12 @@
   - 4. 登入 Github 後，點擊右上角的頭貼，點擊 Your Profile
   - 5. 進入後，點擊 Repositories，點擊頁面中右上方的 New
   - 6. 給一個 Repository name 後 Create repository
-  - 7. 點擊一下頁面裡的連結旁邊的 SSH
+  - 7. 在這個 repository 創造一個文件 README.md ( 副檔名不是 .txt 就是 .md) 並在裡面寫一點咚咚
   - 8. 在電腦中創造一個資料夾，創造好後開啟 Git shell 並進入此資料夾
-  - 9. 輸入以下指令
+  - 9. 在 Git shell 中輸入以下指令
 ```sh
 git init
+git add README.md
 git commit -m 'first commit'
 git remote add origin 頁面中的連結
 git push -u origin master
