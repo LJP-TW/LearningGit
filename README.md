@@ -27,7 +27,7 @@ git push -u origin master
 ## 直接讀手冊也 hen 有用
 你也可以使用
 ```sh
-git help <你不懂的command>
+git help [你不懂的command]
 ```
 來叫出那個command的使用手冊來看
 
@@ -35,7 +35,7 @@ git help <你不懂的command>
 這是要進行版本控制的第一個步驟，只要到你要版控的資料夾(專案)下這個指令
 這個資料夾就開始使用版控了
 
-### git add <Filename>
+### git add [Filename]
 當你想要追蹤著你資料夾裡的某個新咚咚
 或是你資料夾裡的某個咚咚更新了
 都需要下這個指令
@@ -45,7 +45,7 @@ git help <你不懂的command>
 此時就可以下此指令，-m 這個參數後面要緊接一些訊息，這個訊息最好是能一看就知道說這個版本對專案做了啥事
 比如說 'Update Readme.md' 或是 'Adding myClass.cpp' 之類的
 
-### git remote add origin <url>
+### git remote add origin [url]
 這個指令是拿來設定遠端伺服器位置的，只要下一次後，之後 push 都會 push 到指定的 url 去
 並且我們新增了一條分支叫做origin，用來代表遠端伺服器
 
