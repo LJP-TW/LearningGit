@@ -70,3 +70,13 @@ checkout 可以切換 Branch '分支'，加上 -b 參數表示創造一個新的
 ### git remote update
 有時其他分支已經 push、更新了 origin，但是你還未及時更新遠端目前的狀況，此時就是下這個指令
 
+### git status
+下完 git remote update 後，可以用這個指令來看現在本機的版本是否跟遠端有落差
+若有，則他會提醒你下 git pull 這個指令來把遠端的東西下載至本機
+這個指令也可以告訴你現在這個資料夾
+是否有新咚咚還沒被 git add 進去
+是否有已經 add 進去的東西還未 commit
+
+### git merge [Branch Name]
+下此指令會把 [Branch Name] 合併到目前的分支，merge 完後還需要再 commit 一次
+
